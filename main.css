@@ -1,19 +1,30 @@
-.container{
-	width: 1000px;
-	height: 700px;
-	border: 1px solid black;
-	margin-left: auto;
-	margin-right: auto;
+main {
+  font-size: 0;
 }
 
-.inner-one{
 
+.container {
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
 }
 
-.inner-two{
-
+.box {
+  border: 1px solid black;
+  display: inline-block;
 }
 
-.inner-three{
-	
+.box_half {
+  width: 50%;
+  height: 200px;
+}
+
+.box_third {
+  width: 33.33%;
+  height: 300px;
+}
+
+.centered {
+  text-align: center;
 }
