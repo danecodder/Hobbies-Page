@@ -14,7 +14,16 @@ h1{
 	text-align: center;
 	color: white;
 	font-size: 35px;
-	font-family: Times New Roman;
+	font-family: sans-serif;
+}
+
+div > img {
+  width: auto;
+  height : auto;
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
 }
 
 .container-one{
@@ -32,32 +41,13 @@ h1{
   font-size: 0;
 }
 
-.inner-one{
-	background-color: green;
-}
-
-.inner-two{
-	background-color: blue;
-}
-
-.inner-three{
-	background-color: red;
+.inner-third{
 	height: 300px;
 	width: 33.33%;
 	display: inline-block;
+	font-size: 0;
 }
 
-.inner-four{
-	background-color: purple;
-	height: 300px;
-	width: 33.33%;
-	display: inline-block;
-}
 
-.inner-five{
-	background-color: white;
-	height: 300px;
-	width: 33.33%;
-	display: inline-block;
 }
 
