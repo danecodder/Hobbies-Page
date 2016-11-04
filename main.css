@@ -1,21 +1,22 @@
-body{
-	background-color: black;
+body {
+  background-color: black;
 }
+
 main {
-	padding: 50px;
-    font-size: 0;
+  padding: 50px;
+  font-size: 0;
 }
 
 h1 {
-	text-align: center;
-	color: white;
-	font-size: 35px;
-	font-family: sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-family: sans-serif;
 }
 
 div > img {
   width: auto;
-  height : auto;
+  height: auto;
   max-height: 100%;
   max-width: 100%;
   display: block;
@@ -23,11 +24,11 @@ div > img {
 }
 
 .container-one {
-	width: 1000px;
-	height: 500px;
-	border: 1px solid black;
-	margin-left: auto;
-	margin-right: auto;
+  width: 1000px;
+  height: 500px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .inner {
@@ -38,8 +39,8 @@ div > img {
 }
 
 .inner-third {
-	height: 300px;
-	width: 33.33%;
-	display: inline-block;
-	font-size: 0;
+  height: 300px;
+  width: 33.33%;
+  display: inline-block;
+  font-size: 0;
 }
