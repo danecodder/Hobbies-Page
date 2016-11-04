@@ -1,16 +1,12 @@
-/*
-THis will work if it shows in GIT
-*/
 body{
 	background-color: black;
 }
 main {
 	padding: 50px;
-  /* setting font-size to 0 on the parent of a set of inline block elements removes white space between them.    */
-  font-size: 0;
+    font-size: 0;
 }
 
-h1{
+h1 {
 	text-align: center;
 	color: white;
 	font-size: 35px;
@@ -26,7 +22,7 @@ div > img {
   margin: auto;
 }
 
-.container-one{
+.container-one {
 	width: 1000px;
 	height: 500px;
 	border: 1px solid black;
@@ -41,13 +37,9 @@ div > img {
   font-size: 0;
 }
 
-.inner-third{
+.inner-third {
 	height: 300px;
 	width: 33.33%;
 	display: inline-block;
 	font-size: 0;
 }
-
-
-}
-
